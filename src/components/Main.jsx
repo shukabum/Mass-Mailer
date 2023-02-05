@@ -73,7 +73,7 @@ export const Main =()=>{
                             Begin Your Email Here:
                         </h1>
                         <input type="email" id="from" value={mailuser} onChange={(e)=>handlemail(e)} placeholder="From: " required />
-                        <input type="email" id="subject" value={mailsubject} onChange={(e)=>handlesub(e)} placeholder="To" required/>
+                        <input type="email" id="subject" value={mailsubject} onChange={(e)=>handlesub(e)} placeholder="Subject" required/>
                         <textarea id="message" rows="12" value={mailbody} cols="50" onChange={(e)=>handletext(e)} placeholder="Enter Your Message Here" ></textarea>
                         <button type="submit" id="send" > Send</button>
 

@@ -3,7 +3,7 @@ export default function Navbar()
 {
     return (
         <nav className="Nav-bar">
-           <label className="logo"> Mass Mailer <i className="fa-solid fa-envelope"></i></label>
+           <label className="logo animate__animated animate__pulse animate__slow animate__infinite"> Mass Mailer <i className="fa-solid fa-envelope"></i></label>
            <label htmlFor="check" className='Checkbtn'><i className="fa-sharp fa-solid fa-bars"></i></label>
             <ul>
                 <li><a href="/ "><i className="fa-solid fa-house-chimney"></i></a></li>

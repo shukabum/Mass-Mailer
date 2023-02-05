@@ -21,8 +21,10 @@ body {
 }
 .logo:hover{
   cursor:pointer;
-  background:wheat ;
+  transform: scale(1.5);
   transition: all 0.5s ease;
+  background:wheat ;
+  
 }
 .lg{
   color: #F3AC3C;
@@ -64,6 +66,10 @@ body {
   display: inline-block;
   line-height: 20px;
   margin:10px;  
+}
+.Nav-bar ul li:hover{
+ transform: scale(1.5);
+ transition: all 0.5s ease;
 }
 .Nav-bar ul li a{
 color:#293462 ;
