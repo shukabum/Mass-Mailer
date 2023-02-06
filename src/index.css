@@ -332,6 +332,8 @@ button:hover{
 }
 .valTab{
   display: flex;
+  padding:2rem;
+  justify-content: space-between;
 }
 #val{
   display: flex;
@@ -394,22 +396,22 @@ button:hover{
   visibility: hidden;
 }
 .fileuploadbtn::before {
-  content: 'Select some files';
+  content: 'Upload Your CSV file Here👇';
   display: inline-block;
   background: linear-gradient(top, #f9f9f9, #e3e3e3);
-  border: 1px solid #999;
-  border-radius: 3px;
+  border: 0.5rem solid wheat;
+  border-radius: 5rem;
   padding: 5px 8px;
   outline: none;
   white-space: nowrap;
   -webkit-user-select: none;
-  cursor: pointer;
+  cursor:pointer;
   text-shadow: 1px 1px #fff;
-  font-weight: 700;
+  font-weight: 900;
   font-size: 10pt;
 }
 .fileuploadbtn:hover::before {
-  border-color: black;
+  border-color: #F3AC3C;
 }
 .fileuploadbtnt:active::before {
   background: -webkit-linear-gradient(top, #e3e3e3, #f9f9f9);
@@ -525,4 +527,21 @@ button:hover{
 }
 .letter-image:hover .shadow {
   width: 250px;
+}
+#val{
+  border-collapse: collapse;
+  border: 10px solid #293462;
+  border-radius: 5rem;
+  padding:2rem;
+  float: left;
+  margin: 5px;
+}
+#inval{
+  border-collapse: collapse;
+  border:10px solid #293462;
+  border-radius: 5rem;
+  padding:2rem;
+  float: left;
+  margin: 5px;
+  height: 40rem;
 }

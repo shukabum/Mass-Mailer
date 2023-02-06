@@ -61,7 +61,7 @@ export const Main =()=>{
             Body : {setmailbody}
         });
         e.preventDefault();
-        alert("Thank you for using mass mailer");
+        alert("Your mail is sent successfully!💌");
     }
     
     return (
@@ -73,7 +73,7 @@ export const Main =()=>{
                             Begin Your Email Here:
                         </h1>
                         <input type="email" id="from" value={mailuser} onChange={(e)=>handlemail(e)} placeholder="From: " required />
-                        <input type="email" id="subject" value={mailsubject} onChange={(e)=>handlesub(e)} placeholder="Subject" required/>
+                        <input type="text" id="subject" value={mailsubject} onChange={(e)=>handlesub(e)} placeholder="Subject" required/>
                         <textarea id="message" rows="12" value={mailbody} cols="50" onChange={(e)=>handletext(e)} placeholder="Enter Your Message Here" ></textarea>
                         <button type="submit" id="send" > Send</button>
 
@@ -89,7 +89,7 @@ export const Main =()=>{
             <table id="val">
                 <thead>
                     <tr>
-                        <h1 className="ti"> Valid Emails:</h1>                        
+                        <h1 className="ti"> Valid Emails:✔️</h1>                        
                     </tr>
                     </thead>
                     <tbody>
@@ -107,7 +107,7 @@ export const Main =()=>{
             <table id="inval">
                 <thead>
                     <tr>
-                        <h1 className="ti"> InValid Emails:</h1>
+                        <h1 className="ti"> InValid Emails:❌</h1>
                     </tr>
                     </thead>
                     <tbody>
